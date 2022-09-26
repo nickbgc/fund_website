@@ -21,25 +21,25 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <link href="/team" className={styles.card}>
+          <a href="/team" className={styles.card}>
             <h2>TEAM &rarr;</h2>
             <p>Meet the managing partners and executive team helping manage your digital assets</p>
-          </link>
+          </a>
 
-          <link href="/learn" className={styles.card}>
+          <a href="/learn" className={styles.card}>
             <h2>LEARN &rarr;</h2>
             <p>Learn about Bitcoin, Web3, and NFT technology, and why it is revolutionary. </p>
-          </link>
+          </a>
 
-          <link
+          <a
             href="/contact"
             className={styles.card}
           >
             <h2>CONTACT &rarr;</h2>
             <p>Get in touch with one of the partners today to set an initial consultation.</p>
-          </link>
+          </a>
 
-          <link
+          <a
             href="/dashboard"
             className={styles.card}
           >
@@ -47,18 +47,18 @@ export default function Home() {
             <p>
               A dashboard created using market data to make the markets easier to track. 
             </p>
-          </link>
+          </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <link
+        <a
           href="https://blockchainglobalfund.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           Blockhain Global Capital 2022{' '}
-        </link>
+        </a>
       </footer>
     </div>
   )
